@@ -1,3 +1,5 @@
+![](deploy-your-rails-app-to-aws.png)
+
 #Deploy Your Rails App To AWS
 
 As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS).
