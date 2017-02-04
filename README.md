@@ -141,7 +141,7 @@ Now your app's website should be accessible.
 
 Note : Your Security Group of Instance need config same as :
 
-
+![](Screen Shot 2017-02-04 at 15.59.20.png)
 
 To update Passenger and Apache, you will need to run a basic system update:
 
