@@ -154,7 +154,7 @@ After the update process, you will need to restart the web server:
 `sudo service apache2 restart`
 
 
-# Shh wity password 
+# Shh with password 
 
 `sudo passwd USERNAME`
 
