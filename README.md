@@ -173,6 +173,6 @@ USERNAME@ec2-________.compute-1.amazonaws.com's password:
 
     After you register and login your account, add site with your domain, config DNS. We use public ip of instance : `52.90.195.71` :
     
-    
+   ![](Screen Shot 2017-02-05 at 11.21.41.png)
 
 
