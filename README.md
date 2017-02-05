@@ -154,3 +154,17 @@ After the update process, you will need to restart the web server:
 `sudo service apache2 restart`
 
 
+# Shh wity password 
+
+`sudo passwd USERNAME`
+
+Enable password authentication by `editing /etc/ssh/sshd_config`: change `PasswordAuthentication no` to `PasswordAuthentication yes`
+
+`sudo /etc/init.d/ssh restart`
+
+```
+$ ssh USERNAME@ec2-________.compute-1.amazonaws.com
+USERNAME@ec2-________.compute-1.amazonaws.com's password:
+```
+
+
