@@ -154,7 +154,7 @@ After the update process, you will need to restart the web server:
 `sudo service apache2 restart`
 
 
-# Shh with password 
+## Shh with password 
 
 `sudo passwd USERNAME`
 
@@ -166,5 +166,13 @@ Enable password authentication by `editing /etc/ssh/sshd_config`: change `Passwo
 $ ssh USERNAME@ec2-________.compute-1.amazonaws.com
 USERNAME@ec2-________.compute-1.amazonaws.com's password:
 ```
+
+## Add your domain with instance
+
+### We will use Cloudflare
+
+    After you register and login your account, add site with your domain, config DNS. We use public ip of instance : `52.90.195.71` :
+    
+    
 
 
