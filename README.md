@@ -141,6 +141,20 @@ Now your app's website should be accessible.
 
 `http://your-instance-ip`
 
+If you want using port `81` for your applicaiton. You need add
+
+`Listen 81`
+
+at `/etc/apache2/ports.conf`
+
+`Listen xx` where xx is a valid port number
+
+Add/Update Virtual Host
+
+- Create a virtual host that listens to 81 or the port number that Apache is listening to.
+- Enable the site with `sudo a2ensite name of the conf without .conf`
+- Restart the apache `sudo service apache2 restart`
+
 Note : Your Security Group of Instance need config same as :
 
 ![](Screen Shot 2017-02-04 at 15.59.20.png)
