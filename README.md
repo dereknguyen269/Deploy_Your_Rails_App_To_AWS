@@ -182,6 +182,25 @@ If user has been exist:
 
 Enable password authentication by `editing /etc/ssh/sshd_config`: change `PasswordAuthentication no` to `PasswordAuthentication yes`
 
+By default, a new user is only in their own group, which is created at the time of account creation, and shares a name with the user. In order to add the user to a new group, we can use the usermod command:
+
+```
+usermod -aG sudo USERNAME
+```
+
+Open:
+
+```
+sudo vi /etc/sudoers
+```
+
+and add:
+
+```
+USERNAME ALL=(ALL:ALL) ALL
+```
+
+
 `sudo /etc/init.d/ssh restart`
 
 ```
