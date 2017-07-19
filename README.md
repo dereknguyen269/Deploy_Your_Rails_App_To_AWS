@@ -1,12 +1,12 @@
 ![](deploy-your-rails-app-to-aws.png)
 
-#Deploy Your Rails App To AWS
+# Deploy Your Rails App To AWS
 
 As developers, we are usually concerned about the development part of any application. We don’t think much about the deployment part as we consider it to be a responsibility of the SysAdmins. But many times, we don’t have a dedicated SysAdmin available, so we have to put on the SysAdmin hat and get things done. There are many options to deploy your Rails application. Today, I will cover how to deploy a Rails application to Amazon Web Services (AWS).
 
-##1. Deploy Your Rails App To AWS With Passenger and Apache on Ubuntu.
+## 1. Deploy Your Rails App To AWS With Passenger and Apache on Ubuntu.
 
-###Connect your AWS Instance via Terminal
+### Connect your AWS Instance via Terminal
 - First type :
 
 ```sudo apt-get update && sudo apt-get -y upgrade```
@@ -169,6 +169,14 @@ After the update process, you will need to restart the web server:
 
 
 ## Shh with password 
+
+- Add new user:
+
+```
+sudo adduser USERNAME
+```
+
+If user has been exist:
 
 `sudo passwd USERNAME`
 
