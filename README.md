@@ -157,7 +157,7 @@ Add/Update Virtual Host
 
 Note : Your Security Group of Instance need config same as :
 
-![](Screen Shot 2017-02-04 at 15.59.20.png)
+![](https://github.com/minhquan4080/Deploy_Your_Rails_App_To_AWS/blob/master/Screen%20Shot%202017-02-04%20at%2015.59.20.png?raw=true)
 
 To update Passenger and Apache, you will need to run a basic system update:
 
@@ -168,7 +168,7 @@ After the update process, you will need to restart the web server:
 `sudo service apache2 restart`
 
 
-## Shh with password 
+## Login with user & password:
 
 - Add new user:
 
@@ -216,6 +216,7 @@ USERNAME@ec2-________.compute-1.amazonaws.com's password:
 
     After you register and login your account, add site with your domain, config DNS. We use public ip of instance : `52.90.195.71` :
     
-   ![](Screen Shot 2017-02-05 at 11.21.41.png)
+
+![](https://raw.githubusercontent.com/minhquan4080/Deploy_Your_Rails_App_To_AWS/master/Screen%20Shot%202017-02-05%20at%2011.21.41.png)
 
 
